@@ -2,7 +2,7 @@
 /**
  * Module created by request special for uamade.ua
  * @author Shubin Sergie <is.captain.fail@gmail.com>
- * @license MIT
+ * @license GNU General Public License v3.0
  * 08.02.2020 2020
  */
 
