@@ -1,0 +1,39 @@
+{
+    "name": "cf-git/alamo",
+    "description": "Laravel modules",
+    "type": "package",
+    "license": "GNU GPLv3",
+    "version": "0.1.38",
+    "authors": [
+        {
+            "name": "Sergei Shubin",
+            "email": "is.captain.fail@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.3",
+        "laravel/framework": ">=6.0",
+        "cf-git/i18n": ">=0.1.0",
+        "cf-git/lamb": ">=0.0.1",
+        "ext-json": "*",
+        "francislavoie/varexporter": ">=0.2.3"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "CFGit\\ALaMo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CFGit\\ALaMo\\CFServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}
