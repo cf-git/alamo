@@ -15,7 +15,7 @@
         "php": ">=7.1.3",
         "laravel/framework": ">=6.0",
         "cf-git/tramylap": ">=0.1.0",
-        "cf-git/lamb": ">=0.0.1",
+        "cf-git/lamb:dev-astra": ">=1.0.0.0",
         "ext-json": "*",
         "francislavoie/varexporter": ">=0.2.3"
     },
